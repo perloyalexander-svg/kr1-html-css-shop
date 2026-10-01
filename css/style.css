@@ -54,6 +54,7 @@ body {
   line-height: 1.5;
   color: var(--color-text);
   background-color: var(--color-bg);
+  
 }
 
 header,
@@ -65,9 +66,13 @@ footer {
 
 header {
   background-color: var(--color-surface);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
 }
 
-footer {
+footer 
   background-color: var(--color-surface);
 }
 
@@ -238,6 +243,12 @@ a:focus-visible {
   padding: var(--space-lg);
   border: none;
   border-radius: var(--radius-lg);
+}
+.flex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 90px;
 }
 
 .order-dialog::backdrop {
