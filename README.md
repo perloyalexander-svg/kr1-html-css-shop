@@ -130,4 +130,3 @@ https://perloyalexander-svg.github.io/kr1-html-css-shop/
 - `order-form` — форма заявки;
 - `button` — кнопка;
 - `site-footer` — подвал сайта.
-Этап 17. Коммит измен
